@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T17:30:51.354Z" agent="5.0 (X11)" etag="9delDDs4GUyQ5KYqFwn_" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T17:35:51.443Z" agent="5.0 (X11)" etag="f2Vu54aGRhmSR6WeG7T3" version="20.5.3" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="868" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" parent="1" vertex="1">
-          <mxGeometry x="130" y="135" width="30" height="30" as="geometry" />
+          <mxGeometry x="130" y="165" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="24f968d109e7d6b4-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="150" y="350" width="30" height="30" as="geometry" />
+          <mxGeometry x="130" y="440" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vXc-Iob4BYpX87dnZWdg-1" value="&lt;div&gt;Obtaining list of expected passengers if applicable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
@@ -61,7 +61,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vXc-Iob4BYpX87dnZWdg-12" value="Train stops &amp;amp; passengers change" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-12" value="Train stops &amp;amp; not last stop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vXc-Iob4BYpX87dnZWdg-13" value="" style="endArrow=classic;html=1;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXc-Iob4BYpX87dnZWdg-6" target="vXc-Iob4BYpX87dnZWdg-8">
@@ -124,6 +124,38 @@
         <mxCell id="vXc-Iob4BYpX87dnZWdg-23" value="Override cancelled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vXc-Iob4BYpX87dnZWdg-22">
           <mxGeometry x="-0.0907" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-27" value="First stop" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-1" target="vXc-Iob4BYpX87dnZWdg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-28" value="Last stop reached" style="endArrow=classic;html=1;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vXc-Iob4BYpX87dnZWdg-6" target="24f968d109e7d6b4-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="490" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-29" value="Waiting a minute" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-30" value="" style="endArrow=classic;html=1;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXc-Iob4BYpX87dnZWdg-2" target="vXc-Iob4BYpX87dnZWdg-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-31" value="Nobody in the carriage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vXc-Iob4BYpX87dnZWdg-30">
+          <mxGeometry x="-0.1138" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vXc-Iob4BYpX87dnZWdg-32" value="" style="endArrow=classic;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXc-Iob4BYpX87dnZWdg-29" target="vXc-Iob4BYpX87dnZWdg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
