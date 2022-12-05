@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T16:38:54.843Z" agent="5.0 (X11)" etag="6z3tg75nZppmjkmsXUIt" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-05T16:43:03.674Z" agent="5.0 (X11)" etag="SL8oBU-NtcFhGxIQTSB0" version="20.6.0" type="github" pages="2">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1578" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OY1lvmv7Yx-jCfxOJqWs" name="Page-2">
-    <mxGraphModel dx="579" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1578" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -666,6 +666,44 @@
         <mxCell id="bXzi8_AJ_rPvHzQug7GD-108" value="Uploaded" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bXzi8_AJ_rPvHzQug7GD-107">
           <mxGeometry x="-0.3256" y="6" relative="1" as="geometry">
             <mxPoint x="13" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-109" value="Payment information &amp;amp; options showing, expected reach, summary of ads &amp;amp; data" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0A0000;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="160" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-111" value="&lt;div&gt;Advertiser&lt;/div&gt;&lt;div&gt;wants to pay&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXzi8_AJ_rPvHzQug7GD-62" target="bXzi8_AJ_rPvHzQug7GD-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="240" as="sourcePoint" />
+            <mxPoint x="1160" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-112" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXzi8_AJ_rPvHzQug7GD-109" target="bXzi8_AJ_rPvHzQug7GD-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="240" as="sourcePoint" />
+            <mxPoint x="1140" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-113" value="Rejected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bXzi8_AJ_rPvHzQug7GD-112">
+          <mxGeometry x="0.0767" y="20" relative="1" as="geometry">
+            <mxPoint x="12" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-114" value="Accepted" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXzi8_AJ_rPvHzQug7GD-109" target="bXzi8_AJ_rPvHzQug7GD-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="210" as="sourcePoint" />
+            <mxPoint x="1260" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-115" value="Processing payment and uploading to the adverts database" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0A0000;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bXzi8_AJ_rPvHzQug7GD-116" value="Done" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bXzi8_AJ_rPvHzQug7GD-115" target="bXzi8_AJ_rPvHzQug7GD-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="240" as="sourcePoint" />
+            <mxPoint x="1140" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
