@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T15:45:33.751Z" agent="5.0 (X11)" etag="n4PjxJty7t_hLOPeH5ct" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-07T16:40:12.883Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.115 Safari/537.36" etag="CJoFTfF8flTipik7q6hV" version="20.6.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="755" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -195,13 +195,13 @@
             <mxPoint x="770" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sxkBw0DGRR6JRz2jOn-_-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sxkBw0DGRR6JRz2jOn-_-27" edge="1" target="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="sxkBw0DGRR6JRz2jOn-_-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sxkBw0DGRR6JRz2jOn-_-27" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="580" as="sourcePoint" />
             <mxPoint x="780" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sxkBw0DGRR6JRz2jOn-_-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sxkBw0DGRR6JRz2jOn-_-23" edge="1" target="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="sxkBw0DGRR6JRz2jOn-_-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sxkBw0DGRR6JRz2jOn-_-23" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="460" as="sourcePoint" />
             <mxPoint x="780" y="370" as="targetPoint" />
@@ -213,10 +213,30 @@
             <mxPoint x="600" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sxkBw0DGRR6JRz2jOn-_-48">
+          <mxGeometry x="0.8008" y="3" relative="1" as="geometry">
+            <mxPoint x="19" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-1" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sxkBw0DGRR6JRz2jOn-_-48">
+          <mxGeometry x="-0.7281" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-49" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uAK3xlXK2mrY2HopzBhD-0" target="QdFQj7nJMUhyKqi0MS59-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="200" as="sourcePoint" />
             <mxPoint x="600" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-2" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sxkBw0DGRR6JRz2jOn-_-49">
+          <mxGeometry x="-0.7918" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-3" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sxkBw0DGRR6JRz2jOn-_-49">
+          <mxGeometry x="0.4294" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-50" value="Controller" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -230,7 +250,7 @@
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-52" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
           <mxGeometry y="60" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sxkBw0DGRR6JRz2jOn-_-53" value="+Send Face Data([FaceData], JSON, int):[Ad]&#xa;&#xa;&#xa;+Get People([FaceData]): [Person]&#xa;+Get Adverts([Person], JSON): [Ad]&#xa;&#xa;+Tick Down Timer(): bool&#xa;+Set Timer(int): void&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
+        <mxCell id="sxkBw0DGRR6JRz2jOn-_-53" value="+Send Face Data([FaceData], JSON, int):[Ad]&#xa;&#xa;&#xa;+Get Opted-In People([FaceData]): [Person]&#xa;+Get Adverts([Person], JSON): [Ad]&#xa;&#xa;+Tick Down Timer(): bool&#xa;+Set Timer(int): void&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
           <mxGeometry y="68" width="300" height="122" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-54" value="Camera" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -335,8 +355,57 @@
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-75" value="&lt;div&gt;Know its identity&lt;/div&gt;&lt;div&gt;Know which cameras is controls&lt;/div&gt;&lt;div&gt;Know which displays is controls&lt;/div&gt;&lt;div&gt;Be capable of obtaining adverts list&lt;/div&gt;&lt;div&gt;Store adverts in use locally and stream/download them in parts from a database&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" parent="sxkBw0DGRR6JRz2jOn-_-71" vertex="1">
           <mxGeometry y="40" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="I8ujXuWa5pFpN8T9QZVM-1" value="The system shall be able to output the optimal advertisement based on the viewer.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle multiple viewers, by outputting the best advertisement for the group of people.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt;, &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to filter out people that have opted out of the advertising program.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;filters&lt;/i&gt; out &lt;b&gt;Person&lt;/b&gt; that&#39;s opted out&lt;br&gt;&lt;br&gt;The system shall be able to handle people who are not identifiable.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; unidentifiable &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle being unable to recognise any people in a given area.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; no &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall only recognise people that are able to see the advertisement platform.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;recognises&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt; that can see &lt;b&gt;Display&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to correctly interpret priority advertisers (advertisers that have invested more).&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;prioritises&lt;/i&gt; &lt;b&gt;Ad&lt;/b&gt; based on &lt;b&gt;Ad&lt;/b&gt; metadata&lt;br&gt;&lt;br&gt;&lt;div&gt;The system shall be able to identify people visually.&lt;/div&gt;&lt;div&gt;&lt;b&gt;System &lt;/b&gt;&lt;i&gt;identifies &lt;/i&gt;&lt;b&gt;Person &lt;/b&gt;through &lt;b&gt;Camera&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1390" y="90" width="250" height="740" as="geometry" />
+        <mxCell id="I8ujXuWa5pFpN8T9QZVM-1" value="The system shall be able to output the optimal advertisement based on the viewer.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle multiple viewers, by outputting the best advertisement for the group of people.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt;, &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to filter out people that have opted out of the advertising program.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;filters&lt;/i&gt; out &lt;b&gt;Person&lt;/b&gt; that&#39;s opted out&lt;br&gt;&lt;br&gt;The system shall be able to handle people who are not identifiable.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; unidentifiable &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle being unable to recognise any people in a given area.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; no &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall only recognise people that are able to see the advertisement platform.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;recognises&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt; that can see &lt;b&gt;Display&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to correctly interpret priority advertisers (advertisers that have invested more).&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;prioritises&lt;/i&gt; &lt;b&gt;Ad&lt;/b&gt; based on &lt;b&gt;Ad&lt;/b&gt; metadata&lt;br&gt;&lt;br&gt;&lt;div&gt;The system shall be able to identify people visually.&lt;/div&gt;&lt;div&gt;&lt;b&gt;System &lt;/b&gt;&lt;i&gt;identifies &lt;/i&gt;&lt;b&gt;Person &lt;/b&gt;through &lt;b&gt;Camera&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="2170" y="130" width="250" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-4" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;DB Advertisers&lt;/i&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="811" y="-240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-5" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;DB User Profiles&lt;/i&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="-90" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-6" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;DB Digital Identity&lt;/i&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="-210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;startSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QdFQj7nJMUhyKqi0MS59-4" target="o4imEu68xjU8OKNYAwax-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="60" as="sourcePoint" />
+            <mxPoint x="520" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o4imEu68xjU8OKNYAwax-7">
+          <mxGeometry x="-0.7796" y="1" relative="1" as="geometry">
+            <mxPoint x="21" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-9" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o4imEu68xjU8OKNYAwax-7">
+          <mxGeometry x="0.7797" y="-3" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;targetPerimeterSpacing=0;sourcePerimeterSpacing=0;startSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o4imEu68xjU8OKNYAwax-5" target="o4imEu68xjU8OKNYAwax-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="10" as="sourcePoint" />
+            <mxPoint x="700" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o4imEu68xjU8OKNYAwax-11">
+          <mxGeometry x="-0.6857" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-13" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o4imEu68xjU8OKNYAwax-11">
+          <mxGeometry x="0.7" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-14" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;DB Advert Streaming&lt;/i&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1041" y="-240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o4imEu68xjU8OKNYAwax-16" value="Advertiser" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="811" y="-70" width="170" height="40" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
