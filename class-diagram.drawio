@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T13:03:29.466Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.115 Safari/537.36" etag="Ps1ljRE2ltHtZqtjNZxp" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-08T13:49:06.050Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.115 Safari/537.36" etag="ZMEjIcs-cjxS2mDETMcK" version="20.6.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="765" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="IO System" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="700" y="-849" width="160" height="270" as="geometry">
+          <mxGeometry x="700" y="-800" width="160" height="230" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="-viewers: [Person] = []&#xa;-ad List: [Ad] = []&#xa;-ad Time: Int&#xa;-override Ad: Ad? = null&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="-ad List: [Ad] = []&#xa;-ad Time: Int&#xa;-override Ad: Ad? = null&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="QdFQj7nJMUhyKqi0MS59-3" value="+Set Override(Ad): void&lt;br&gt;&lt;div&gt;+Unset Override(): void&lt;/div&gt;&lt;div&gt;+Get Override(): Ad?&lt;br&gt;&lt;/div&gt;&lt;div&gt;+Set List([Ad]): void&lt;/div&gt;&lt;div&gt;+Get List(): [Ad]&lt;/div&gt;&lt;div&gt;+Check Time Left(): Bool&lt;/div&gt;&lt;div&gt;+Is Override(): Bool&lt;/div&gt;&lt;div&gt;&lt;div&gt;+Set Viewers([Person]): void&lt;/div&gt;+Get Viewers(): [Person]&lt;/div&gt;&lt;div&gt;+Show Ads(): void&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="98" width="160" height="172" as="geometry" />
+        <mxCell id="QdFQj7nJMUhyKqi0MS59-3" value="+Set Override(Ad): void&lt;br&gt;&lt;div&gt;+Unset Override(): void&lt;/div&gt;&lt;div&gt;+Get Override(): Ad?&lt;br&gt;&lt;/div&gt;&lt;div&gt;+Set List([Ad]): void&lt;/div&gt;&lt;div&gt;+Get List(): [Ad]&lt;/div&gt;&lt;div&gt;+Check Time Left(): Bool&lt;/div&gt;&lt;div&gt;+Is Override(): Bool&lt;/div&gt;&lt;div&gt;+Show Ads(): void&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="98" width="160" height="132" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Ad" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="990" y="-979" width="170" height="113" as="geometry">
@@ -250,7 +250,7 @@
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-52" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
           <mxGeometry y="60" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sxkBw0DGRR6JRz2jOn-_-53" value="+Send Face Data([FaceData], JSON, int):[Ad]&#xa;&#xa;&#xa;+Get Opted-In People([FaceData]): [Person]&#xa;+Get Adverts([Person], JSON): [Ad]&#xa;&#xa;+Tick Down Timer(): bool&#xa;+Set Timer(int): void&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
+        <mxCell id="sxkBw0DGRR6JRz2jOn-_-53" value="+Send Face Data([Face Data], JSON, int):[Ad]&#xa;&#xa;&#xa;+Get Opted-In People([Face Data], int): [Person]&#xa;+Get Adverts([Person], JSON, int): [Ad]&#xa;&#xa;+Tick Down Timer(): bool&#xa;+Set Timer(int): void&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="sxkBw0DGRR6JRz2jOn-_-50" vertex="1">
           <mxGeometry y="68" width="300" height="122" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-54" value="Camera" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -303,20 +303,20 @@
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-65" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sxkBw0DGRR6JRz2jOn-_-61" vertex="1" connectable="0">
           <mxGeometry x="-0.7432" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-67" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1280" y="-579" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-68" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1280" y="-539" width="20" height="50" as="geometry" />
+          <mxGeometry x="1280" y="-520" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-69" value="C1 Case 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1300" y="-579" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-70" value="C1 Case 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1300" y="-529" width="60" height="30" as="geometry" />
+          <mxGeometry x="1300" y="-520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-0" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
           <mxGeometry x="650" y="-339" width="280" height="150" as="geometry" />
@@ -355,7 +355,7 @@
         <mxCell id="sxkBw0DGRR6JRz2jOn-_-75" value="&lt;div&gt;Know its identity&lt;/div&gt;&lt;div&gt;Know which cameras is controls&lt;/div&gt;&lt;div&gt;Know which displays is controls&lt;/div&gt;&lt;div&gt;Be capable of obtaining adverts list&lt;/div&gt;&lt;div&gt;Store adverts in use locally and stream/download them in parts from a database&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" parent="sxkBw0DGRR6JRz2jOn-_-71" vertex="1">
           <mxGeometry y="40" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="I8ujXuWa5pFpN8T9QZVM-1" value="The system shall be able to output the optimal advertisement based on the viewer.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle multiple viewers, by outputting the best advertisement for the group of people.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt;, &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to filter out people that have opted out of the advertising program.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;filters&lt;/i&gt; out &lt;b&gt;Person&lt;/b&gt; that&#39;s opted out&lt;br&gt;&lt;br&gt;The system shall be able to handle people who are not identifiable.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; unidentifiable &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle being unable to recognise any people in a given area.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; no &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall only recognise people that are able to see the advertisement platform.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;recognises&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt; that can see &lt;b&gt;Display&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to correctly interpret priority advertisers (advertisers that have invested more).&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;prioritises&lt;/i&gt; &lt;b&gt;Ad&lt;/b&gt; based on &lt;b&gt;Ad&lt;/b&gt; metadata&lt;br&gt;&lt;br&gt;&lt;div&gt;The system shall be able to identify people visually.&lt;/div&gt;&lt;div&gt;&lt;b&gt;System &lt;/b&gt;&lt;i&gt;identifies &lt;/i&gt;&lt;b&gt;Person &lt;/b&gt;through &lt;b&gt;Camera&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="I8ujXuWa5pFpN8T9QZVM-1" value="Note: &lt;b&gt;System&lt;/b&gt;&amp;nbsp;may refer to &lt;b&gt;IO System/Core Server &lt;/b&gt;depending on context &amp;amp; implementation.&lt;br&gt;&lt;br&gt;The system shall be able to output the optimal advertisement based on the viewer.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle multiple viewers, by outputting the best advertisement for the group of people.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt;, &lt;i&gt;outputs&lt;/i&gt; optimal &lt;b&gt;Ad&lt;/b&gt; to &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to filter out people that have opted out of the advertising program.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;filters&lt;/i&gt; out &lt;b&gt;Person&lt;/b&gt; that&#39;s opted out&lt;br&gt;&lt;br&gt;The system shall be able to handle people who are not identifiable.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; unidentifiable &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to handle being unable to recognise any people in a given area.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;handles&lt;/i&gt; no &lt;b&gt;Person&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall only recognise people that are able to see the advertisement platform.&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;recognises&lt;/i&gt; &lt;b&gt;Person&lt;/b&gt; that can see &lt;b&gt;Display&lt;/b&gt;&lt;br&gt;&lt;br&gt;The system shall be able to correctly interpret priority advertisers (advertisers that have invested more).&lt;br&gt;&lt;b&gt;System&lt;/b&gt; &lt;i&gt;prioritises&lt;/i&gt; &lt;b&gt;Ad&lt;/b&gt; based on &lt;b&gt;Ad&lt;/b&gt; metadata&lt;br&gt;&lt;br&gt;&lt;div&gt;The system shall be able to identify people visually.&lt;/div&gt;&lt;div&gt;&lt;b&gt;System &lt;/b&gt;&lt;i&gt;identifies &lt;/i&gt;&lt;b&gt;Person &lt;/b&gt;through &lt;b&gt;Camera&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2170" y="-829" width="250" height="740" as="geometry" />
         </mxCell>
         <mxCell id="o4imEu68xjU8OKNYAwax-4" value="&lt;i style=&quot;font-weight: normal;&quot;&gt;DB Advertisers&lt;/i&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -457,6 +457,93 @@
         </mxCell>
         <mxCell id="o4imEu68xjU8OKNYAwax-29" value="+Upload Ads([Ad]): void&lt;br&gt;+Modify Ads To([Ad]): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="990" y="-789" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-0" value="Core Server" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1280" y="-1164" width="280" height="300" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-1" value="-systems: [IO System]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-0">
+          <mxGeometry y="26" width="280" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-0">
+          <mxGeometry y="90" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-3" value="+Send People([Face Data], JSON, int): [Person]&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;+Send Opted-In People([Face Data], int): [Person]&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+Send Adverts([Person], JSON, int): [Ad]&lt;br&gt;&lt;br&gt;&lt;/span&gt;+Serve Site(type): void&lt;br&gt;&lt;span style=&quot;&quot;&gt;+Send Site Event(event): void&lt;br&gt;&lt;br&gt;+DB Interaction(int, Query): CSV&lt;br&gt;&lt;br&gt;+Add Systems([IO System])&lt;br&gt;+Remove Systems([IO System])&lt;br&gt;+Modify Systems({IO Systems: JSON})&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-0">
+          <mxGeometry y="98" width="280" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-4" value="Web Serving Layer" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1680" y="-1129" width="220" height="34" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-4">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-8" value="Database Interaction Layer" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1680" y="-1169" width="220" height="34" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-10" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-8">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-12" value="IO System Interaction Layer" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1680" y="-1089" width="220" height="34" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="POT3u_P-yCmSBhz2x33e-12">
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-18" value="" style="endArrow=none;html=1;rounded=0;startSize=0;endSize=17;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="POT3u_P-yCmSBhz2x33e-8" target="POT3u_P-yCmSBhz2x33e-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="-1060" as="sourcePoint" />
+            <mxPoint x="1640" y="-1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-19" value="" style="endArrow=none;html=1;rounded=0;startSize=0;endSize=17;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="POT3u_P-yCmSBhz2x33e-0" target="POT3u_P-yCmSBhz2x33e-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="-1060" as="sourcePoint" />
+            <mxPoint x="1640" y="-1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-20" value="" style="endArrow=none;html=1;rounded=0;startSize=0;endSize=17;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="POT3u_P-yCmSBhz2x33e-0" target="POT3u_P-yCmSBhz2x33e-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="-1060" as="sourcePoint" />
+            <mxPoint x="1640" y="-1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1574" y="-1068" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1574" y="-1028" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-24" value="C1 Case 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1594" y="-1068" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-25" value="C1 Case 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1594" y="-1028" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-26" value="" style="endArrow=none;html=1;startSize=0;endSize=17;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="POT3u_P-yCmSBhz2x33e-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1190" y="-900" as="sourcePoint" />
+            <mxPoint x="1240" y="-950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="-1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="POT3u_P-yCmSBhz2x33e-26">
+          <mxGeometry x="0.9308" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="POT3u_P-yCmSBhz2x33e-29" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="POT3u_P-yCmSBhz2x33e-26">
+          <mxGeometry x="-0.958" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
