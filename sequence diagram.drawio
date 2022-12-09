@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T01:04:13.977Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.115 Safari/537.36" etag="j6QqdBaRmF9P_e5xc6XY" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T01:06:35.211Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.115 Safari/537.36" etag="pvcYeVkVJ4nqCMgnRDTV" version="20.6.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2520" dy="958" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1553" dy="403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,13 +71,13 @@
           <mxGeometry x="135" y="0.000551181102362186" width="160" height="17.637795275590552" as="geometry" />
         </mxCell>
         <mxCell id="c93ydlf0_RD-mQ9PVJOV-131" value="" style="group" vertex="1" connectable="0" parent="c93ydlf0_RD-mQ9PVJOV-108">
-          <mxGeometry x="36" y="182" width="715" height="110" as="geometry" />
+          <mxGeometry x="36" y="182" width="715" height="68" as="geometry" />
         </mxCell>
         <mxCell id="c93ydlf0_RD-mQ9PVJOV-129" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillStyle=solid;strokeWidth=1;fontColor=default;fillColor=#FFFFFF;" vertex="1" parent="c93ydlf0_RD-mQ9PVJOV-131">
-          <mxGeometry x="1" width="714" height="110" as="geometry" />
+          <mxGeometry x="1" width="714" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="c93ydlf0_RD-mQ9PVJOV-130" value="[Registered ad list not empty]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="c93ydlf0_RD-mQ9PVJOV-131">
-          <mxGeometry y="30" width="81" height="30" as="geometry" />
+        <mxCell id="c93ydlf0_RD-mQ9PVJOV-130" value="[Registered ad list empty]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="c93ydlf0_RD-mQ9PVJOV-131">
+          <mxGeometry y="17.45" width="81" height="50.55" as="geometry" />
         </mxCell>
         <mxCell id="c93ydlf0_RD-mQ9PVJOV-64" value="sd Log Out()" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
           <mxGeometry x="1160" y="30" width="460" height="370" as="geometry" />
@@ -516,6 +516,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="506" y="1282" as="sourcePoint" />
             <mxPoint x="696" y="1282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c93ydlf0_RD-mQ9PVJOV-146" value="disable metrics &amp;amp; remove buttons" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;comic=0;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="496" y="1474.2099999999998" as="sourcePoint" />
+            <mxPoint x="306" y="1474.2099999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
